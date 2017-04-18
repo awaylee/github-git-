@@ -34,7 +34,7 @@ git config –global user.email "邮箱"
 3. 到现在为止，我们就算把Git和github配置完了，现在就来托管我们的项目吧，刚才我们已经在github上面创建了一个仓库，那么我们现在就在本地创建一个test文件夹，来管理这个仓库。点击该文件夹，然后shift+右键 点击 Git Bush Here
 
 4.这时候输入 git init，来完成初始化工作。这时候目录里面就多了一个.git的目录了。继续执行git remote add origin https://github.com/awaylee/github-git-
-其中https://github.com/awaylee/github-git-是你代码仓库的地址，在地址栏复制即可
+其中https://github.com/awaylee/github-git-  是你代码仓库的地址，在地址栏复制即可
 
 或者点击Create or download 然后复制其地址
 
