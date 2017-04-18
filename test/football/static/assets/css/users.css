@@ -1,0 +1,43 @@
+section .scroll{
+	width:100%;
+	height:100%;
+	padding:0.05rem 0;
+	background:#fff;
+	background-clip:content-box;
+}
+section .check{
+	width:100%;
+	height:0.22rem;
+	border-bottom:1px solid #e5e5e5;
+	display: -webkit-box;
+}
+section .check a{
+	display: block;
+	-webkit-box-flex:1;
+	height:0.21rem;
+	line-height:0.21rem;
+	border-bottom:2.5px solid transparent;
+	text-align: center;
+	color:#999;
+	font-size: 12px;
+}
+section .check a.curr{
+	border-bottom-color:#0dc441;
+	color:#0dc441;
+}
+section ul.show{
+	display: none;
+}
+section ul.curr{
+	display: block;
+}
+section .show li{
+	float:left;
+}
+section .show li:nth-child(2n){
+	margin-left:0.025rem;
+}
+section .show img{
+	width:1.575rem;
+	height:1.575rem;
+}

@@ -1,0 +1,80 @@
+
+/*---------------内容------------------*/
+section.hot{
+	background:#fff;
+}
+section.hot .check{
+	width:100%;
+	height:0.355rem;
+	border-bottom:1px solid #d9d9d9;
+	display: -webkit-box;
+	position: absolute;
+	z-index: 2;
+	top:0.44rem;
+	background-color:rgba(255,255,255,0.5);
+}
+section.hot .check a{
+	display: block;
+	-webkit-box-flex:1;
+	height:0.355rem;
+	line-height: 0.355rem;
+	text-align: center;
+	color:#666666;
+	font-size:14px;
+	border-bottom: 5px solid transparent;
+}
+section.hot .check a:hover{
+	text-decoration: none;
+}
+section.hot .check a.curr{
+	color:#0dc441;
+	border-bottom-color:#0dc441;
+}
+section .swiper-container{
+	-webkit-box-flex:1;
+	padding-top:0.355rem;
+}
+section .swiper-wrapper{
+	height:100%;
+}
+section .swiper-slide{
+	height:100%;
+}
+section .scroll{
+	
+	
+}
+section.hot .content{
+	overflow: hidden;
+}
+section.hot .scroll dl{
+	float:left;
+	width:1.555rem;
+	margin-top:0.1rem;
+}
+section.hot .scroll dl:nth-child(2n){
+	margin-left:0.09rem;
+}
+section.hot .scroll dl img{
+	width:1.555rem;
+	height:1.555rem;
+	display: block;
+	border:1px solid #e5e5e5;
+}
+section.hot .scroll dl dd{
+	border:1px solid #e5e5e5;
+	border-top:0;
+	width:1.555rem;
+	line-height:0.29rem;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding:0 0.16rem 0 0.1rem;
+}
+/*section.hot .scroll_two{
+	
+}
+section.hot .scroll_two dl img{
+	width:1.555rem;
+	height:1.135rem;
+}*/
