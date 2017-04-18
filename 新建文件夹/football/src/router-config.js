@@ -1,0 +1,32 @@
+﻿module.exports=function(router){
+	router.map({
+		"/login":{
+			component:require("./components/login.vue")
+		},
+		"/register":{
+			component:require("./components/register.vue")
+		},
+		"/index":{
+			component:require("./components/index/index.vue"),
+			subRoutes:{
+				"/idx":{
+					component:require("./components/index/idx.vue"),
+					subRoutes:{
+						"/hot":{
+							component:require("./components/index/hot.vue")
+						},
+						"/focus":{
+							component:require("./components/index/focus.vue")
+						}
+					}
+				},
+				"/find":{
+					component:require("./components/index/find.vue")
+				},
+				"/user":{
+					component:require("./components/index/user.vue")
+				}
+			}
+		}
+	})
+}	

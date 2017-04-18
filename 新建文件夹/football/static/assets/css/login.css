@@ -1,0 +1,42 @@
+header{
+	width:100%;
+	background:#0dc441;
+	text-align: center;
+	font-size: 16px;
+	height:0.44rem;
+	line-height:0.44rem;
+	color:#fff;
+}
+section{
+	width:100%;
+}
+#info{
+	width:2.9rem;
+	margin: 0 auto;
+}
+#info p{
+	margin:0.15rem 0 0.27rem;
+	color:#999999;
+}
+#info input{
+	width:2.9rem;
+	height:0.33rem;
+	border-bottom:1px solid #7f7f7f;
+	color:#b2b2b2;
+	font-size:14px;
+}
+#info input:foucs{
+	border-bottom:1px solid #7f7f7f;
+}
+#info .submit{
+	height:0.44rem;
+	background:#0dc441;
+	border:0;
+	border-radius:4px;
+	font-size:16px;
+	color:#fff;
+}
+#info a{
+	color:#a3e9b7;
+	text-decoration: underline;
+}

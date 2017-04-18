@@ -1,0 +1,8 @@
+﻿{
+	"error":0,
+	"message":"ok",
+	"data":[
+		{"name":"我叫猫小萌","signature":"我是猫小萌我怕谁!哈哈哈哈!","headpor":"./static/assets/img/tou.png","praise":"3823244","img":"./static/assets/img/cat.png","word":"小丸子啊小丸子"},
+		{"name":"我叫猫大萌","signature":"我是猫大萌我怕谁!哈哈哈哈!","headpor":"./static/assets/img/tou.png","praise":"3823244","img":"./static/assets/img/cat.png","word":"大丸子啊大丸子"}
+	]
+}
